@@ -1,11 +1,13 @@
 lockfileVersion: 5.3
 
 specifiers:
+  mdi: ^2.2.43
   nuxt: 3.0.0-rc.3
   sass: ^1.51.0
   vuetify: ^3.0.0-beta.1
 
 dependencies:
+  mdi: 2.2.43
   sass: 1.51.0
   vuetify: 3.0.0-beta.1
 
@@ -2720,6 +2722,11 @@ packages:
     dependencies:
       semver: 6.3.0
     dev: true
+
+  /mdi/2.2.43:
+    resolution: {integrity: sha512-g3m6z4303qieltUM20JL2gdsJZvoVzIzO74qa2XxZ2kg9JPwrPEAgooVhRDHZi1vvRh0gB8Dg+c9XqNdz4jcIg==}
+    deprecated: The mdi package was renamed to @mdi/font after v2.2.43. Please rename in your package.json for future updates.
+    dev: false
 
   /mdn-data/2.0.14:
     resolution: {integrity: sha512-dn6wd0uw5GsdswPFfsgMp5NSB0/aDe6fK94YJV/AJDYXL6HVLWBsxeq7js7Ad+mU2K9LAlwpk6kN2D5mwCPVow==}
